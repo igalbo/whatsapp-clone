@@ -1,0 +1,24 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/whatsapp-front/node_modules
+/whatsapp-back/node_modules
+/whatsapp-front/.pnp
+/whatsapp-front.pnp.js
+
+# testing
+/whatsapp-front/coverage
+
+# production
+/whatsapp-front/build
+
+# misc
+/whatsapp-front/.DS_Store
+/whatsapp-front/.env.local
+/whatsapp-front/.env.development.local
+/whatsapp-front/.env.test.local
+/whatsapp-front/.env.production.local
+
+/whatsapp-front/npm-debug.log*
+/whatsapp-front/yarn-debug.log*
+/whatsapp-front/yarn-error.log*
