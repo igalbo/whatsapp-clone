@@ -1,12 +1,12 @@
 import React from "react";
 import "./ChatMessage.css";
 
-function ChatMessage({ receiver }) {
+function ChatMessage({ message }) {
   return (
-    <div className={`chat__message ${receiver && "chat__receiver"}`}>
-      <span className="chat__name">Igal</span>
-      This is a message
-      <span className="chat__timestamp">{new Date().toUTCString()}</span>
+    <div className={`chat__message ${message.received && "chat__receiver"}`}>
+      <span className="chat__name">{message.name}</span>
+      {message.message}
+      <span className="chat__timestamp">{message.timestamp}</span>
     </div>
   );
 }

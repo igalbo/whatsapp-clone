@@ -14,7 +14,7 @@ function Sidebar() {
     <div className="sidebar">
       <div className="sidebar__header">
         <Avatar src="/assets/my_avatar.jpg" />
-        <div class="sidebar__headerRight">
+        <div className="sidebar__headerRight">
           <IconButton>
             <DonutLarge />
           </IconButton>
