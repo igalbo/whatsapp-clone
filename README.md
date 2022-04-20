@@ -15,3 +15,14 @@ Example (JSON):<br>
 }
 
 ![WhatsApp-2](https://user-images.githubusercontent.com/68712178/164229697-b3ec262e-4197-4f5e-9185-00979d032f12.gif)
+
+# Notes
+This is a work in progress. Other features that can be implemented:
+<ul>
+  <li>Delete message functionality</li>
+  <li>Add emoji</li>
+  <li>Add a voice recording</li>
+  <li>Attach an image/document</li>
+  <li>Timestamps and "Last seen on..."</li>
+  <li>All other Whatsapp features!</li>
+<ul>
