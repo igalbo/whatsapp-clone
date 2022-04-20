@@ -3,7 +3,7 @@ A messaging app built with React JS (front end), Node + Express JS (back end) an
 
 # Usage
 Open the app and send a message:
-<h2>LINK: https://igalbo.github.io/whatsapp-clone/</h2>
+<h3>Link: <a href="https://igalbo.github.io/whatsapp-clone/" target="_blank" rel="noopener noreferrer">Click here</a></h3>
 You can send a message back (as the "other party") using a POST request to https://igal-whatsapp-server.herokuapp.com/messages/new.<br><br>
 Example (JSON):<br>
 {<br>
