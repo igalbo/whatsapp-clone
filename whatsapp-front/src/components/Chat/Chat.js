@@ -50,10 +50,6 @@ function Chat({ messages }) {
         {messages.map((message, id) => (
           <ChatMessage key={id} message={message} />
         ))}
-        {/* <ChatMessage /> */}
-        {/* <ChatMessage  />
-        <ChatMessage />
-        <ChatMessage receiver /> */}
       </div>
       <div className="chat__footer">
         <InsertEmoticon />

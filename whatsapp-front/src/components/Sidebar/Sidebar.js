@@ -13,7 +13,7 @@ function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebar__header">
-        <Avatar src="/assets/my_avatar.jpg" />
+        <Avatar src="https://raw.githubusercontent.com/igalbo/whatsapp-clone/main/whatsapp-front/public/assets/my_avatar.jpg" />
         <div className="sidebar__headerRight">
           <IconButton>
             <DonutLarge />
